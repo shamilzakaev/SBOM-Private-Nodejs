@@ -16,7 +16,7 @@ jobs:
        on:
          branch: 'main'
          pr: true
-       # condition: false
+       # condition: true
        run_phase: "after_success" # 
        output_format: "spdx-json" # 
        output_dir: "/test" # 
